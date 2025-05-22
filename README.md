@@ -1,9 +1,6 @@
-# LMS
-
-
 # 📚 Full-Stack Learning Management System (LMS)
 
-A modern, responsive, and scalable Learning Management System (LMS) built with a full-stack JavaScript ecosystem. This project enables course creation, video hosting, student enrollment, progress tracking, and payment processing.
+A Learning Management System (LMS) built with a full-stack JavaScript ecosystem. This project enables course creation, video hosting, student enrollment, progress tracking, and payment processing.
 
 ## 🚀 Tech Stack
 
@@ -27,30 +24,6 @@ A modern, responsive, and scalable Learning Management System (LMS) built with a
 - multer (File upload)  
 - cloudinary (Media storage)  
 - PayPal REST SDK (Payments)
-
----
-
-## 📦 Installation
-
-1. **Clone the repo:**
-   ```bash
-   git clone https://github.com/your-username/lms-project.git
-   cd lms-project
-   ```
-
-2. **Install server dependencies:**
-   ```bash
-   cd server
-   npm install
-   ```
-
-3. **Install client dependencies:**
-   ```bash
-   cd ../client
-   npm install
-   ```
-
----
 
 ## 🔐 Environment Variables
 
@@ -89,52 +62,6 @@ PAYPAL_CLIENT_SECRET=your_paypal_client_secret
 - **React Player**: Embed video content
 - **React Confetti**: Celebration effects on course completion
 
----
-
-## 🧪 Scripts
-
-Run the **server**:
-
-```bash
-cd server
-npm run dev
-```
-
-Run the **client**:
-
-```bash
-cd client
-npm start
-```
-
----
-
-## 📂 Project Structure
-
-```
-lms-project/
-│
-├── client/        # Frontend React app
-│   ├── src/
-│   └── public/
-│
-├── server/        # Backend Express API
-│   ├── routes/
-│   ├── models/
-│   ├── controllers/
-│   └── utils/
-│
-└── README.md
-```
-
----
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!  
-Feel free to check the [issues page](https://github.com/your-username/lms-project/issues).
-
----
 
 ## 📄 License
 
